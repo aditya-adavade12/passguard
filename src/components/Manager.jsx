@@ -180,7 +180,9 @@ const Manager = () => {
                 className="cursor-pointer border-gray-300 border rounded-lg p-1.5"
                 onClick={showPassword}
               >
-                <img width={28} src="src/assets/hidden.png" alt="eye" />
+                <span className="flex material-symbols-outlined">
+                  visibility_off
+              </span>
               </span>
             </div>
           </div>
