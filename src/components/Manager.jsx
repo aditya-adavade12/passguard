@@ -177,7 +177,7 @@ const Manager = () => {
                 id="password"
               />
               <span
-                className="cursor-pointer border-gray-300 border rounded-lg p-1.5"
+                className="cursor-pointer border-gray-300 border rounded-lg p-1 flex"
                 onClick={showPassword}
               >
                 <span className="flex material-symbols-outlined">
